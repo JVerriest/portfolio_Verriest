@@ -1,205 +1,427 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Portfolio</title>
-    <!-- css files -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.1/css/bulma.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
-
-    <link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
-    <meta name="author" content="Hassan Ali">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Freelancer - Start Bootstrap Theme</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
 </head>
 
-<body>
-    <!-- Navbar -->
-    <nav class="nav container void-background">
-        <!-- This "nav-menu" is hidden on mobile -->
-        <!-- Add the modifier "is-active" to display it on mobile -->
-        <div class="nav-left">
-
-            <a href="http://github.com/helfi92" class="nav-item">
-                <span class="icon">
-						<i class="fa fa-github"></i>
-					</span>
-            </a>
-            <a href="https://twitter.com/hassanhelfi" class="nav-item">
-                <span class="icon">
-						<i class="fa fa-twitter"></i>
-					</span>
-            </a>
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="#page-top">Portfolio Jordan Verriest</a>
+            <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Mes projets</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">Mes stages</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Ma veille technologique</a></li>
+                </ul>
+            </div>
         </div>
-
-        <div class="nav-right nav-menu">
-            <a class="nav-item" href="#about">A propos</a>
-            <a class="nav-item" href="#projects">Projets</a>
-            <a class="nav-item" href="#social">Mon expérience</a>
-        </div>
-
-        <!-- This "nav-toggle" hamburger menu is only visible on mobile -->
-        <!-- You need JavaScript to toggle the "is-active" class on "nav-menu" -->
-        <span class="nav-toggle">
-				<span></span>
-        <span></span>
-        <span></span>
-        </span>
     </nav>
-
-    <!-- About Me -->
-    <section id="about" class="section section-1">
-        <div class="container has-text-centered">
-            <!-- Source: https://flic.kr/p/pAZBNK -->
-            <img class="avatar" src='https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortWaved&accessoriesType=Prescription02&hairColor=BrownDark&facialHairType=Blank&clotheType=Hoodie&clotheColor=Black&eyeType=Default&eyebrowType=DefaultNatural&mouthType=Default&skinColor=Light'
-            />
-        </div>
-        <div class="container">
-            </br>
-            <p class="intro">
-                Je m'appelle Jordan Verriest et je suis actuellement étudiant dans le but de devenir développeur web. Voici donc mon portfolio qui contient tous mes différents projets sur lesquels j'ai pu travaillé durant mes 2 années de BTS
-            </p>
-        </div>
-    </section>
-    <section id="projects" class="section section-2">
-        <div class="container">
-            <div class="has-text-centered">
-                <h3 class="title is-3">Mes projets réalisés en stage</h3>
+    <!-- Masthead-->
+    <header class="masthead bg-primary text-white text-center">
+        <div class="container d-flex align-items-center flex-column">
+            <!-- Masthead Avatar Image-->
+            <img class="masthead-avatar mb-5" src='https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortWaved&accessoriesType=Prescription02&hairColor=BrownDark&facialHairType=Blank&clotheType=Hoodie&clotheColor=Black&eyeType=Default&eyebrowType=DefaultNatural&mouthType=Default&skinColor=Light'
+                alt="..." />
+            <!-- Masthead Heading-->
+            <h1 class="masthead-heading text-uppercase mb-0">Verriest Jordan</h1>
+            <!-- Icon Divider-->
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
             </div>
-
-            <div class="columns is-multiline is-desktop">
-                <!-- Project 1 -->
-                <div class="column">
-                    <div class="box project-text">
-                        <article>
-                            <div>
-                                <figure class="image project-figure">
-                                    <a href='escape.html'><img class='imgOpa' src="assets/img/getout.jpg" alt="Image"></a>
-                                </figure>
-                            </div>
-                            <div>
-                                <p>Projet site réservation et gestion d'un escape game</p>
-
-                            </div>
-                        </article>
+            <!-- Masthead Subheading-->
+            <p class="masthead-subheading font-weight-light mb-0">Développeur WEB Full Stack</p>
+        </div>
+    </header>
+    <!-- Portfolio Section-->
+    <section class="page-section portfolio" id="portfolio">
+        <div class="container">
+            <!-- Portfolio Section Heading-->
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Mes projets de cours</h2>
+            <!-- Icon Divider-->
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- Portfolio Grid Items-->
+            <div class="row justify-content-center">
+                <!-- Portfolio Item 1-->
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/vizimmo.png" alt="..." />
                     </div>
                 </div>
-                <!-- Project 2 -->
-                <div class="column">
-                    <div class="box project-text">
-                        <article>
-                            <div>
-                                <figure class="image project-figure">
-                                    <a href=''><img class='imgOpa' src="assets/img/RJFPL.jpg" alt="Image"></a>
-                                </figure>
+                <!-- Portfolio Item 2-->
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/Jaclet_Restauration.png" alt="..." />
+                    </div>
+                </div>
+                <!-- Portfolio Item 3-->
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/Jaclet_Sejour.png" alt="..." />
+                    </div>
+                </div>
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Mes projets de stage</h2>
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Item 4-->
+                <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
+                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/getout.jpg" alt="..." />
+                    </div>
+                </div>
+                <!-- Portfolio Item 5-->
+                <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
+                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/RJFPL.jpg" alt="..." />
+                    </div>
+                </div>
+                <!-- Portfolio Item 6-->
+
+            </div>
+        </div>
+    </section>
+    <!-- About Section-->
+    <section class="page-section bg-primary text-white mb-0" id="about">
+        <div class="container">
+            <!-- About Section Heading-->
+            <h2 class="page-section-heading text-center text-uppercase text-white">Mes stages</h2>
+            <!-- Icon Divider-->
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- About Section Content-->
+            <div class="row">
+                <div class="col-lg-4 ms-auto">
+                    <img class="img-fluid" src="assets/img/RJFPL.jpg" alt="..." />
+                    <p class="lead">Stage de première année réaliser dans un club de tennis de table.</p>
+
+                </div>
+                <div class="col-lg-4 me-auto">
+                    <img class="img-fluid" src="assets/img/getout.jpg" alt="..." />
+                    <p class="lead">Stage de deuxième année réaliser en auto-entreprise avec la collaboration de l'entreprise Get Out.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Contact Section-->
+    <section class="page-section" id="contact">
+        <div class="container">
+            <!-- Contact Section Heading-->
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Mes compétences</h2>
+            <!-- Icon Divider-->
+            <div class="divider-custom">
+                <img class="img-fluid" src="assets/img/synthese.PNG" alt="..." />
+            </div>
+
+        </div>
+    </section>
+    <section class="page-section bg-primary text-white mb-0" id="about">
+        <h2 class="page-section-heading text-center text-uppercase text-white">Ma veille informatique</h2>
+        <div class="divider-custom divider-light">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+            <div class="divider-custom-line"></div>
+        </div>
+    </section>
+    <!-- Footer-->
+    <footer class="footer text-center">
+        <div class="container">
+            <div class="row">
+                <!-- Footer Location-->
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Contact</h4>
+                    <p class="lead mb-0">
+                        06.28.66.11.53
+                        <br /> verriestjordan@gmail.com
+                    </p>
+                </div>
+                <!-- Footer Social Icons-->
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Mes réseaux</h4>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>
+                </div>
+                <!-- Footer About Text-->
+                <div class="col-lg-4">
+                    <h4 class="text-uppercase mb-4">About Freelancer</h4>
+                    <p class="lead mb-0">
+                        Freelance is a free to use, MIT licensed Bootstrap theme created by
+                        <a href="http://startbootstrap.com">Start Bootstrap</a> .
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Copyright Section-->
+    <div class="copyright py-4 text-center text-white">
+        <div class="container"><small>Portfolio &copy; Verriest Jordan</small></div>
+    </div>
+    <!-- Portfolio Modals-->
+    <!-- Portfolio Modal 1-->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Site agence immobilière VIZIMMO</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-5" src="assets/img/vizimmo.png" alt="..." />
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4">Site web d'une agence immobilière qui permettait aux clients de rechercher des biens immobiliers avec oui ou non des critères de recherches.</p>
+                                <p class="mb-4">Pour les employés de l'agence la possibilité d'ajouter,modifier ou supprimer un bien immobilier</p>
+                                <p class="mb-4">Site réaliser en HTML/CSS/JS/PHP</p>
+
+                                <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
                             </div>
-                            <div>
-                                <p>
-                                    Projet d'application web pour gérer les matchs et le classement dans un club de tennis de table
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Modal 2-->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Application DESKTOP JAVA gestion de restauration d'un hopital</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-5" src="assets/img/Jaclet_Restauration.png" alt="..." />
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4">Le but du projet était de proposer une application Desktop en JAVA qui permettait la gestion des repas des patients d'un hôpital.</p>
+                                <p class="mb-4">Le personnel hospitalier de chaque service devait pouvoir selectionner un type de repas pour chaque patient de son service.</p>
+                                <p class="mb-4">Le personnel de restauration devait pouvoir visualiser les repas de tous les patients selon le service et pouvoir obtenir un récapitulatif de ceux-ci en PDF.</p>
+                                <p class="mb-4">L'admin devait pouvoir gérer les connexions, la création ou la suppression d'un utilisateur.</p>
+                                <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        
+                                    </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Modal 3-->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Application WEB en Symfony de gestions de séjours d'un hôpital</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-5" src="assets/img/Jaclet_Sejour.png" alt="..." />
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4">Le but de ce projet était de développer une application web en Symfony qui permettait la gestion des séjours dans un Hôpital.</p>
+                                <p class="mb-4">Le personnel infirmier de chaque service devait pouvoir valider l'arrivée et la sortie d'un patient, visualiser les séjours effectifs à une date donnée et les séjours à venir.</p>
+                                <p class="mb-4">Le personnel administratif peut gérer les patients et les séjours (création, modification ou suppresion), il peut également visualiser l'historique de connexion des utilisateurs</p>
+                                <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Modal 4-->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal4" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Site réservation et gestion escape game</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-5" src="assets/img/getout.jpg" alt="..." />
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4">Ce projet a été réalisé en collaboration avec l'entreprise Get Out. Il s'agit d'un site de réservation et de gestions de sessions d'escape game. Ce projet a été réalisé dans le cadre de mon stage de 2ème année en auto-entreprise.</p>
+                                <p class="mb-4">Les clients devaient pouvoir réserver un créneau et recevoir un mail de confirmation de réservation.</p>
+                                <p class="mb-4">Les entreprises pouvait contacter la gérante pour poser une question vis à vis des services pour le B2B.</p>
+                                <p class="mb-4">Les game masters devaient pouvoir créer des clients ou des sessions mais également visualiser les réservations à une date donnée et pouvoir les déplacer, modifier ou les supprimer.</p>
+                                <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Modal 5-->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" aria-labelledby="portfolioModal5" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Site pour un club de tennis de table et application web</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-5" src="assets/img/RJFPL.jpg" alt="..." />
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4">Le projet était de créer un site web pour un club de tennis de table.</p>
+                                <p class="mb-4">Ce site permet de se renseigner sur le club (son histoire et son comité de direction), mais également permettait aux membres de visualiser le classement et de le télécharger en PDF
                                 </p>
-
+                                <p class="mb-4">Il permet également au comité de rentrer les résultats des matchs ce qui met automatiquement à jour le classement des divisions</p>
+                                <p class="mb-4">Le projet a également été repris en deuxième année pendant mon stage pour faire en sorte que la partie du site avec le classement et la saisie des résultats soient réunis dans une application web Sylmfony</p>
+                                <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
                             </div>
-                        </article>
+                        </div>
                     </div>
-                </div>
-
-
-            </div>
-        </div>
-    </section>
-    <!-- Projects -->
-    <section id="projects" class="section section-25">
-        <div class="container">
-            <div class="has-text-centered">
-                <h3 class="title is-3">Mes projets réalisés à l'école</h3>
-            </div>
-
-            <div class="columns is-multiline is-desktop">
-                <!-- Project 1 -->
-                <div class="column">
-                    <div class="box project-text">
-                        <article>
-                            <div>
-                                <figure class="image project-figure">
-                                    <a href=''><img class='imgOpa' src="assets/img/vizimmo.png" alt="Image"></a>
-                                </figure>
-                            </div>
-                            <div>
-                                <p>Projet de site web d'agence immobilière VIZIMMO</p>
-
-                            </div>
-                        </article>
-                    </div>
-                </div>
-                <!-- Project 2 -->
-                <div class="column">
-                    <div class="box project-text">
-                        <article>
-                            <div>
-                                <figure class="image project-figure">
-                                    <a href=''><img class='imgOpa' src="assets/img/Jaclet_Restauration.png" alt="Image"></a>
-                                </figure>
-                            </div>
-                            <div>
-                                <p>
-                                    Projet d'application bureau en JAVA pour gérer la restauration dans un hopital
-                                </p>
-
-                            </div>
-                        </article>
-                    </div>
-                </div>
-                <div class="column">
-                    <div class="box project-text">
-                        <article>
-                            <div>
-                                <figure class="image project-figure">
-                                    <a href=''><img class='imgOpa' src="assets/img/Jaclet_Sejour.png" alt="Image"></a>
-                                </figure>
-                            </div>
-                            <div>
-                                <p>Projet d'application web pour la gestion des séjours dans un hôpital </p>
-
-                            </div>
-                        </article>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- Social -->
-    <section id="social" class="section section-3">
-        <div class="container">
-            <div class="has-text-centered">
-                <h3 class="title is-3">Mes stages</h3>
-            </div>
-            <div class="social-container columns">
-                <div class="column is-6 has-text-centered">
-                    <figure class="image project-figure">
-                        <img class='imgOpa' src="assets/img/RJFPL.jpg" alt="Image">
-                    </figure>
-                    <p>Stage dans un club de tennis de table</p>
-                </div>
-
-                <div class="column is-6 has-text-centered">
-                    <figure class="image project-figure">
-                        <img class='imgOpa' src="assets/img/verriestAndCo.PNG" alt="Image">
-                    </figure>
-                    <p>Stage en auto-entreprise</p>
                 </div>
             </div>
         </div>
-    </section>
-
-    <!-- Footer -->
-    <section class="section-4 has-text-centered container">
-        <a href="">Verriest Jordan</a>
-    </section>
-
-    <!-- Scripts  -->
-    <script src="controller.js"></script>
+    </div>
+    <!-- Portfolio Modal 6-->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" aria-labelledby="portfolioModal6" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Submarine</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/submarine.png" alt="..." />
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur
+                                    itaque. Nam.</p>
+                                <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <!-- * *                               SB Forms JS                               * *-->
+    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
 </body>
 
 </html>
